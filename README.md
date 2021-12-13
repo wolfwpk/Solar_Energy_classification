@@ -1,14 +1,41 @@
 # Solar_Energy_classification
 
-dataCollection.csv 已打乱数据集，前600训练，后325测试
+```
+########################################
+#Group 3
+#Pengkai Wang, Kaiwen Zheng, Jiahe Zhang
+########################################
+```
 
-multi-scikit 用包解决 多分类
+### Datasets
 
-plot-solar_data 画图和数据分析
+*ENGR_518_group_3_datasets.csv*   Shuffled dataset. First 600 points for training, and rest 325 for test.
 
-multiclass-perception-gradient-ETR/METSTAT 多分类梯度下降 多分类
+### Multiclass Perceptron
 
-find-lamda--ETR/METSTAT 调参找最优lamda
+##### Classifier for ETR and METSTAT:
 
-multiclass-perception-boosting （未完成）逐个feature训练
+*multiclass-perceptron-gradient-ETR.ipynb*
+
+*multiclass-perceptron-gradient-METSTAT.ipynb*
+
+##### Find best lamda for ETR and METSTAT:
+
+*find-lamda-ETR*.ipynb
+
+*find-lamda-METSTAT.ipynb*
+
+### KNN
+
+##### Classifier for ETR and METSTAT:
+
+*KNN-ETR.ipynb*
+
+*KNN-METSTAT.ipynb*
+
+##### Find best K for ETR and METSTAT:
+
+*KNN-ETR-find-best-k.ipynb*
+
+*KNN-METSTAT-find-best-k.ipynb*
 
